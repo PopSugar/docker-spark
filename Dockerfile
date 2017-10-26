@@ -1,4 +1,5 @@
-FROM debian:jessie
+FROM debian:9.2
+
 MAINTAINER Getty Images "https://github.com/gettyimages"
 
 RUN apt-get update \
